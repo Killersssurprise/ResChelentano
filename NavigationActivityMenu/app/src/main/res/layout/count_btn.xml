@@ -11,14 +11,13 @@
         android:layout_height="60dp"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:visibility="gone">
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/minusBtn"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="null"
+            android:background="@android:color/transparent"
             android:src="@drawable/ic_remove_circle_outline_black_24dp"
             app:srcCompat="@drawable/ic_remove_circle_outline_black_24dp"></androidx.appcompat.widget.AppCompatImageButton>
 
@@ -27,14 +26,14 @@
             android:layout_width="70dp"
             android:layout_height="60dp"
             android:paddingVertical="19dp"
-            android:text="1"
+           android:text="1"
             android:textAlignment="center"></androidx.appcompat.widget.AppCompatTextView>
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/plusBtn"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="null"
+            android:background="@android:color/transparent"
             android:src="@drawable/ic_add_circle_outline_black_24dp"
             app:srcCompat="@drawable/ic_add_circle_outline_black_24dp"></androidx.appcompat.widget.AppCompatImageButton>
     </androidx.appcompat.widget.LinearLayoutCompat>
