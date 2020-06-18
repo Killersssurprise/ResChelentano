@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_local_dining_black_24dp"
+            android:title="@string/menu_menu" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_basket"
+            android:icon="@drawable/baseline_shopping_cart_black_24dp"
+            android:title="@string/menu_busket" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/baseline_restore_black_24dp"
+            android:title="@string/menu_history" />
+        <item
+            android:id="@+id/nav_condition"
+            android:icon="@drawable/baseline_airport_shuttle_black_24dp"
+            android:title="@string/menu_conditions"
+            android:onClick="ClickOnCondition"
+            />
+        <item
+            android:id="@+id/nav_company"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/menu_company"
+            android:onClick="ClickOnCompany"
+          />
+        <item
+            android:id="@+id/nav_partnership"
+            android:icon="@drawable/baseline_people_outline_white_24dp"
+            android:title="@string/menu_partnership"
+            />
+
+    </group>
+</menu>
